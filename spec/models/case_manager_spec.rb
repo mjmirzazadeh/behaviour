@@ -12,7 +12,7 @@ describe CaseManager do
   end
 
   it "doesn't instanciate with an unvalid password" do
-    user = CaseManager.create(email:"a@a.com", password:"1234567")
+    user = CaseManager.new(email:"a@a.com", password:"1234567")
     expect(user).not_to be_valid
   end
   
