@@ -3,11 +3,13 @@ source 'https://rubygems.org'
 group :development, :test do
   gem 'rspec-rails'
 end
+
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
 end
 
+gem 'devise'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
